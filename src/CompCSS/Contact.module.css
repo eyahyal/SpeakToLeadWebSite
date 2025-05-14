@@ -1,0 +1,186 @@
+.Contact {
+    min-height: 100vh;
+    color: #333;
+    padding: 40px 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topContact {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.topContactH1 {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.topContactP {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+}
+
+.ContactMail,
+.ContactJoinUs {
+  /* background-color: #fff6fb; */
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 12px;
+    max-width: 700px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Contact .ContactJoinUsH2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+.ContactH3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #6a1b9a;
+}
+
+.EmailLink {
+    font-size: 1.1rem;
+    color: #3949AB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.EmailLink:hover {
+    text-decoration: underline;
+}
+
+.ContactJoinUs h2 {
+    font-size: 2rem;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.ContactText {
+    color: #444;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.Contacta {
+    text-decoration: none;
+}
+
+.ContactJoinButton {
+    background-color: #7c4dff;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ContactJoinButton:hover {
+    background-color: #5e35b1;
+}
+
+.ulContact {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.liContact {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.hoveredIcon {
+    transform: scale(1.3);
+}
+
+.name {
+    font-size: 1rem;
+    margin-top: 8px;
+    opacity: 0;
+    color: #333;
+    transition: opacity 0.3s ease;
+}
+
+.hoveredname {
+    opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+    .Contact {
+    padding: 20px 10px;
+    }
+
+    .topContactH1 {
+    font-size: 1.8rem;
+    text-align: center;
+    }
+
+    .topContactP {
+    font-size: 1rem;
+    padding: 0 10px;
+    }
+
+    .ContactMail,
+    .ContactJoinUs {
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 90%;
+    }
+
+    .ContactJoinUs h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    }
+
+    .ContactText {
+    font-size: 1rem;
+    text-align: center;
+    }
+
+    .ContactJoinButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    }
+
+    .ulContact {
+    gap: 20px;
+    margin-top: 30px;
+    }
+
+    .icon {
+    width: 40px;
+    }
+
+    .name {
+    font-size: 0.9rem;
+    }
+}

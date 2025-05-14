@@ -1,0 +1,93 @@
+.EventCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff6fb;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.ImgCard {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.PCard {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff6fb;
+    text-align: center;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+}
+
+
+.card:hover .ImgCard {
+    filter: grayscale(1) brightness(0.4);
+    transform: scale(1.05);
+}
+.card:hover .PCard {
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+
+.card::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover::after{
+    opacity: 1;
+    inset: 20px;
+}
+.CordLottie{
+    position: relative;
+    top: 15%;
+    right: 3%;
+}
+@media (max-width: 768px) {
+    .EventCard {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .EventCard {
+      grid-template-columns: 1fr; /* Stack vertically on phones */
+    padding: 15px;
+    }
+
+    .PCard {
+    font-size: 14px;
+    width: 90%;
+    }
+
+    .card::after {
+    inset: 10px;
+    }
+}

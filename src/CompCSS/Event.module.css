@@ -1,0 +1,42 @@
+
+.Event{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #fef3f3;
+    min-height: 100vh;
+    color: black;
+    padding: 20px;
+}
+.EventTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.H1Event{
+    font-size: 3em;
+    font-weight: 800;
+    margin: 20px;
+    padding-left: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.PEvent{
+    max-width: 600px;
+    margin: 10px;
+    font-size: 1.3em;
+    padding-left: 20px;
+    color: #444444;
+}
+
+.EventTopLottie{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-right:80px ;
+}
+

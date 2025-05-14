@@ -1,0 +1,286 @@
+body {
+    padding: 0  0 0 20px;
+    margin-left: 20px;
+    transition: all 0.4s ease;
+}
+.Home{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.Home {
+    background-color: #fef3f3;
+    min-height: 100vh;
+    color: black;
+    padding: 20px;
+}
+
+.lottieSpeak{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-right:80px ;
+}
+.topHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.leftHome{
+    display: flex;
+    flex-direction: column;
+}
+.HomeH1{
+    font-size: 3.5em;
+    font-weight: 800;
+    margin: 20px;
+    padding-left: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.HomeH1Span{
+    -webkit-text-fill-color:red;
+}
+.ReactTyped{
+    font-size: 1.7em;
+    font-weight: 500;
+    margin: 10px;
+    padding-left: 40px;
+    color: #D81B60;
+}
+.HomeP1{
+    max-width: 600px;
+    margin: 10px;
+    font-size: 1.3em;
+    padding-left: 20px;
+    color: #444444;
+}
+.WhyJoinUs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff6fb;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+.leftWhyJoinUs{
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.h2_WhyJoinUs {
+    font-size: 1.8em;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.ul_WhyJoinUs {
+    list-style: none;
+    padding-left: 0;
+}
+.li_WhyJoinUs {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+
+.h2_WhyJoinUs::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+
+.lottieWhyJoinUs{
+    flex: 1;
+    max-width: 300px;
+    margin-right: 40px;
+}
+
+
+
+.UpcomingEvent {
+    background-color:  #fff6fb;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.LeftUpcomingEvent{
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.h1_UpcomingEvent {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h1_UpcomingEvent::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+.desc_UpcomingEvent {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.ul_UpcomingEvent {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 20px 0;
+}
+
+.li_UpcomingEvent {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+.SeeAllEvents {
+    background: #7c4dff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 150px;
+    transition: background 0.3s ease;
+    color: #fff6fb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.SeeAllEvents:hover {
+    background: #651fff;
+}
+.lottieUpcomingEvent{
+    flex: 1;
+    max-width: 300px;
+    margin-right: 40px;
+}
+
+
+
+.DivJoinUs {
+    background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+    padding: 40px 20px;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.h1_JoinUs {
+    font-size: 2rem;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+.p_JoinUs {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.JoinUs {
+    background: #7c4dff;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.JoinUs:hover {
+    background: #651fff;
+}
+
+
+
+@media (max-width: 768px) {
+    .topHome {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .leftHome {
+    padding: 0;
+    align-items: center;
+    }
+
+    .lottieSpeak {
+    width: 250px;
+    margin: 20px 0;
+    }
+
+    .WhyJoinUs {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .leftWhyJoinUs {
+    align-items: center;
+    }
+
+    .lottieWhyJoinUs {
+    margin: 20px 0;
+    max-width: 250px;
+    }
+
+    .UpcomingEvent {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .LeftUpcomingEvent {
+    align-items: center;
+    }
+
+    .lottieUpcomingEvent {
+    margin: 20px 0;
+    max-width: 250px;
+    }
+
+    .JoinUs {
+    width: 100%;
+    max-width: 300px;
+    }
+
+    .SeeAllEvents {
+    width: 100%;
+    max-width: 300px;
+    }
+}

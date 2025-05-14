@@ -1,0 +1,370 @@
+.About{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #fef3f3;
+    min-height: 100vh;
+    color: black;
+    padding: 20px;
+}
+.introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.H2introduction{
+    font-size: 3em;
+    font-weight: 800;
+    margin: 20px;
+    padding-left: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Pintroduction{
+    max-width: 600px;
+    margin: 10px;
+    font-size: 1.3em;
+    padding-left: 20px;
+    color: #444444;
+}
+
+.WelcomeToTheStageLottie{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-right:80px ;
+}
+
+.POurMission{
+    max-width: 600px;
+    margin: 10px;
+    font-size: 1.3em;
+    padding-left: 20px;
+    color: #444444;
+}
+
+.OurMission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.H2OurMission{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.H2OurMission::after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+
+.OurMissionLottie{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left:80px ;
+}
+.WhatWeDo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+
+.H2WhatWeDo{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.WhatWeDoLottie{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    margin-right:80px ;
+}
+
+.H2WhatWeDo::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+.PWhatWeDo{
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+.UlWhatWeDo{
+    max-width: 600px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.LiWhatWeDo{
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+.WhoCanJoin{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.H2WhoCanJoin{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.H2WhoCanJoin::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+
+.PWhoCanJoin{
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+.OurValues{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.H2OurValues{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.H2OurValues::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+
+.OurValueLottie{
+    width: 350px;
+    height: auto;
+    margin-top: 20px;
+    margin-right:90px ;
+}
+
+.UlOurValues{
+    max-width: 700px;
+    list-style: none;
+    padding-left: 0;
+}
+.LiOurValues{
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+.WhyItMatters{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.H2WhyItMatters{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.H2WhyItMatters::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+.PWhyItMatters{
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+.QuoteWhyItMatters{
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 600;
+}
+.Books{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff6fb;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+.LeftBooks{
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.H2Books{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.H2Books::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin-top: 8px;
+    background: linear-gradient(90deg, #D81B60, #8E24AA, #3949AB);
+    border-radius: 2px;
+}
+.PBooks{
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+.TapBooks{
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 600;
+}
+.booksButton {
+    background-color: #6236ff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booksButton:hover {
+    background-color: #4b2fd6;
+}
+
+.BooksLottie{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left:80px ;
+}
+
+
+@media screen and (max-width: 768px) {
+    .introduction,
+    .OurMission,
+    .WhatWeDo,
+    .OurValues,
+    .Books {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .WelcomeToTheStageLottie,
+    .OurMissionLottie,
+    .BooksLottie,
+    .WhatWeDoLottie,
+    .OurValueLottie {
+    margin: 20px auto 0 auto;
+    width: 200px;
+    }
+
+    .H2introduction,
+    .H2OurMission,
+    .H2WhatWeDo,
+    .H2WhoCanJoin,
+    .H2OurValues,
+    .H2WhyItMatters,
+    .H2Books {
+    font-size: 1.8rem;
+    padding-left: 0;
+    }
+
+    .Pintroduction,
+    .POurMission,
+    .PWhatWeDo,
+    .PWhoCanJoin,
+    .PBooks {
+    padding-left: 0;
+    font-size: 1.1rem;
+    }
+
+    .LeftBooks {
+    align-items: center;
+    }
+
+    .TapBooks {
+    font-size: 1rem;
+    }
+
+    .booksButton {
+    width: 80%;
+    max-width: 300px;
+    }
+
+    .UlWhatWeDo,
+    .UlOurValues {
+    padding-left: 0;
+    }
+
+    .LiWhatWeDo,
+    .LiOurValues {
+    font-size: 1rem;
+    }
+
+    .QuoteWhyItMatters {
+    font-size: 1.1rem;
+    }
+}
